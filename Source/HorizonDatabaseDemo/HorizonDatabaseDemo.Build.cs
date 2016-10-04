@@ -1,6 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 using UnrealBuildTool;
+using System;
+using System.IO;
 
 public class HorizonDatabaseDemo : ModuleRules
 {
@@ -41,6 +43,15 @@ public class HorizonDatabaseDemo : ModuleRules
             );
     }
 
+    private string ModuleRootPath
+    {
+        get
+        {
+            string ModuleCSFilename = UnrealBuildTool.RulesCompiler.GetFileNameFromType(GetType());
+            string ModuleCSFileDirectory = Path.GetDirectoryName(ModuleCSFilename);
+            return Path.Combine(ModuleCSFileDirectory);
+        }
+    }
 
     private string ModuleLibSociPublicIncludePath
     {
