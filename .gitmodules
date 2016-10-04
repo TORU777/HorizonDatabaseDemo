@@ -1,0 +1,3 @@
+[submodule "Plugins/HorizonDatabasePlugin"]
+	path = Plugins/HorizonDatabasePlugin
+	url = git@bitbucket.org:horizonstudio/horizondatabaseplugin.git

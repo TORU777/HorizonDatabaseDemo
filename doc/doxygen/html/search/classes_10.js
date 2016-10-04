@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['ref_5fcounted_5fprepare_5finfo',['ref_counted_prepare_info',['../classsoci_1_1details_1_1ref__counted__prepare__info.html',1,'soci::details']]],
+  ['ref_5fcounted_5fstatement',['ref_counted_statement',['../classsoci_1_1details_1_1ref__counted__statement.html',1,'soci::details']]],
+  ['ref_5fcounted_5fstatement_5fbase',['ref_counted_statement_base',['../classsoci_1_1details_1_1ref__counted__statement__base.html',1,'soci::details']]],
+  ['registrarfortagaliases',['RegistrarForTagAliases',['../struct_catch_1_1_registrar_for_tag_aliases.html',1,'Catch']]],
+  ['resultbuilder',['ResultBuilder',['../class_catch_1_1_result_builder.html',1,'Catch']]],
+  ['resultdisposition',['ResultDisposition',['../struct_catch_1_1_result_disposition.html',1,'Catch']]],
+  ['resultwas',['ResultWas',['../struct_catch_1_1_result_was.html',1,'Catch']]],
+  ['returns_5fnull_5fprocedure_5fcreator',['returns_null_procedure_creator',['../structreturns__null__procedure__creator.html',1,'']]],
+  ['reusablespace',['ReusableSpace',['../struct_reusable_space.html',1,'']]],
+  ['row',['row',['../classsoci_1_1row.html',1,'soci']]],
+  ['rowid',['rowid',['../classsoci_1_1rowid.html',1,'soci']]],
+  ['rowid_5fbackend',['rowid_backend',['../classsoci_1_1details_1_1rowid__backend.html',1,'soci::details']]],
+  ['rowset',['rowset',['../classsoci_1_1rowset.html',1,'soci']]],
+  ['rowset',['RowSet',['../struct_row_set.html',1,'']]],
+  ['rowset_5fimpl',['rowset_impl',['../classsoci_1_1details_1_1rowset__impl.html',1,'soci::details']]],
+  ['rowset_5fiterator',['rowset_iterator',['../classsoci_1_1rowset__iterator.html',1,'soci']]],
+  ['rowsetchunk',['RowSetChunk',['../struct_row_set_chunk.html',1,'']]],
+  ['rowsetentry',['RowSetEntry',['../struct_row_set_entry.html',1,'']]]
+];
