@@ -28,8 +28,9 @@ public class HorizonDatabaseDemo : ModuleRules
         PublicIncludePaths.AddRange(
           new string[] {
               "Public",
-               ModuleLibSociPublicIncludePath,
-               ModuleLibSqlite3PublicIncludePath,
+              ModuleHorizonDatabasePublicIncludePath,
+              ModuleLibSociPublicIncludePath,
+              ModuleLibSqlite3PublicIncludePath,
 
               // ... add public include paths required here ...
           }
@@ -38,6 +39,7 @@ public class HorizonDatabaseDemo : ModuleRules
 
         PrivateIncludePaths.AddRange(
             new string[] {
+                "Private"
 				// ... add other private include paths required here ...
 			}
             );
@@ -50,6 +52,16 @@ public class HorizonDatabaseDemo : ModuleRules
             string ModuleCSFilename = UnrealBuildTool.RulesCompiler.GetFileNameFromType(GetType());
             string ModuleCSFileDirectory = Path.GetDirectoryName(ModuleCSFilename);
             return Path.Combine(ModuleCSFileDirectory);
+        }
+    }
+
+
+
+    private string ModuleHorizonDatabasePublicIncludePath
+    {
+        get
+        {
+            return Path.GetFullPath(Path.Combine(ModuleRootPath, "..", "..", "Plugins", "HorizonDatabasePlugin", "Source", "Runtime", "HorizonDatabase", "Public"));
         }
     }
 

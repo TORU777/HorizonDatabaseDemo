@@ -3,7 +3,7 @@
 #include "HorizonDatabaseDemo.h"
 #include "HorizonDatabaseDemoGameMode.h"
 
-
+#include "Horizon/Database/HorizonDatabase.h"
 
 
 #include <string>
