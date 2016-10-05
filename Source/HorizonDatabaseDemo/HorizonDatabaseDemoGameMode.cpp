@@ -48,7 +48,7 @@ static FORCEINLINE void CreateDirectoryRecursively(FString FolderToMake)
 
 
 AHorizonDatabaseDemoGameMode::AHorizonDatabaseDemoGameMode() {
-	FPaths::Combine();
+	//FPaths::Combine();
 	//IPlatformFile& PlatformFile = FPlatformFileManager::Get().GetPlatformFile();
 	//IFileHandle* FileHandle = PlatformFile.OpenWrite(*testFilePath);
 
