@@ -9,5 +9,12 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
+	],
+	"Plugins": [
+		{
+			"Name": "HorizonDatabasePlugin",
+			"Enabled": true,
+			"MarketplaceURL": "http://dorgon.horizon-studio.net"
+		}
 	]
 }

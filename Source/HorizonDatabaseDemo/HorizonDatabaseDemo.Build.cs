@@ -1,4 +1,6 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Created by dorgon, All Rights Reserved.
+// email: dorgonman@hotmail.com
+// blog: dorgon.horizon-studio.net
 
 using UnrealBuildTool;
 using System;
@@ -22,7 +24,7 @@ public class HorizonDatabaseDemo : ModuleRules
 
 
 
-        PrivateDependencyModuleNames.AddRange(new string[] { "soci_core", "soci_sqlite3" });
+       
         // PrivateDependencyModuleNames.AddRange(new string[] { "sqlite3Static" });
         System.Diagnostics.Debug.WriteLine("===== ModuleLibSqlite3PublicIncludePath:" + ModuleLibSqlite3PublicIncludePath);
         PublicIncludePaths.AddRange(
