@@ -45,6 +45,9 @@ public class HorizonDatabaseDemo : ModuleRules
 				// ... add other private include paths required here ...
 			}
             );
+
+        //bUseRTTI = true; // turn on RTTI
+
     }
 
     private string ModuleRootPath
