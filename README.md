@@ -23,7 +23,7 @@ Tested UnrealEngine version: 4.13
 Installation Guide
 -----------------------  
 
-put HorizonTweenPlugin into YOUR_PROJECT/Plugins folder, 
+put HorizonDatabasePlugin into YOUR_PROJECT/Plugins folder, 
 and then add module to your project 
 YOUR_PROJECT.Build.cs:
 PublicDependencyModuleNames.AddRange(new string[] { "HorizonDatabase"});
