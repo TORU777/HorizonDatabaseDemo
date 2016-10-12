@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['ehorizondatabasebackend',['EHorizonDatabaseBackEnd',['../namespace_e_horizon_database_back_end.html',1,'']]]
+  ['soci',['soci',['../namespacesoci.html',1,'']]],
+  ['tests',['tests',['../namespacesoci_1_1tests.html',1,'soci']]]
 ];

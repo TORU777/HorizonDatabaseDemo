@@ -1,19 +1,4 @@
 var searchData=
 [
-  ['agginfo',['AggInfo',['../struct_agg_info.html',1,'']]],
-  ['agginfo_5fcol',['AggInfo_col',['../struct_agg_info_1_1_agg_info__col.html',1,'AggInfo']]],
-  ['agginfo_5ffunc',['AggInfo_func',['../struct_agg_info_1_1_agg_info__func.html',1,'AggInfo']]],
-  ['ahorizondatabase',['AHorizonDatabase',['../class_a_horizon_database.html',1,'']]],
-  ['allof',['AllOf',['../class_catch_1_1_matchers_1_1_impl_1_1_generic_1_1_all_of.html',1,'Catch::Matchers::Impl::Generic']]],
-  ['analysisinfo',['analysisInfo',['../structanalysis_info.html',1,'']]],
-  ['anyof',['AnyOf',['../class_catch_1_1_matchers_1_1_impl_1_1_generic_1_1_any_of.html',1,'Catch::Matchers::Impl::Generic']]],
-  ['approx',['Approx',['../class_catch_1_1_detail_1_1_approx.html',1,'Catch::Detail']]],
-  ['assertioninfo',['AssertionInfo',['../struct_catch_1_1_assertion_info.html',1,'Catch']]],
-  ['assertionresult',['AssertionResult',['../class_catch_1_1_assertion_result.html',1,'Catch']]],
-  ['assertionresultdata',['AssertionResultData',['../struct_catch_1_1_assertion_result_data.html',1,'Catch']]],
-  ['attachkey',['AttachKey',['../struct_attach_key.html',1,'']]],
-  ['authcontext',['AuthContext',['../struct_auth_context.html',1,'']]],
-  ['autoincinfo',['AutoincInfo',['../struct_autoinc_info.html',1,'']]],
-  ['autoreg',['AutoReg',['../struct_catch_1_1_auto_reg.html',1,'Catch']]],
-  ['auxdata',['AuxData',['../struct_aux_data.html',1,'']]]
+  ['common_5ftests',['common_tests',['../classsoci_1_1tests_1_1common__tests.html',1,'soci::tests']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['continueonfailure',['ContinueOnFailure',['../struct_catch_1_1_result_disposition.html#a3396cad6e2259af326b3aae93e23e9d8aa18c94bd60c5614e17a84c2ced3bbfd5',1,'Catch::ResultDisposition']]]
+  ['empty',['Empty',['../namespace_e_horizon_database_back_end.html#a05d9ef89f076ea73a8c13aa76d4b57e8a1e548039281ca997203f96f7966c56c7',1,'EHorizonDatabaseBackEnd']]]
 ];

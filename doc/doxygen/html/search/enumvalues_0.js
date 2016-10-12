@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['bound_5fby_5fname',['BOUND_BY_NAME',['../namespacesoci_1_1details_1_1db2.html#a85d5f5d130032901793f1facf351e59ea8ac9eb2146f16b6904fb8fc068209e00',1,'soci::details::db2']]],
-  ['bound_5fby_5fnone',['BOUND_BY_NONE',['../namespacesoci_1_1details_1_1db2.html#a85d5f5d130032901793f1facf351e59eac82407f71bcee7a9e1b458c5c7e87d3c',1,'soci::details::db2']]],
-  ['bound_5fby_5fposition',['BOUND_BY_POSITION',['../namespacesoci_1_1details_1_1db2.html#a85d5f5d130032901793f1facf351e59ea2aa79af3575c64849f30c63589ef0923',1,'soci::details::db2']]]
+  ['db2',['DB2',['../namespace_e_horizon_database_back_end.html#a05d9ef89f076ea73a8c13aa76d4b57e8ae9feca422fe04bdd74b46fd4e3eaf444',1,'EHorizonDatabaseBackEnd']]]
 ];

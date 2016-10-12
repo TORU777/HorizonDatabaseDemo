@@ -1,13 +1,11 @@
 var searchData=
 [
-  ['_5ffile_5foffset_5fbits',['_FILE_OFFSET_BITS',['../shell_8c.html#a44d01ba0a136b8e27ad362f5a823d14e',1,'_FILE_OFFSET_BITS():&#160;shell.c'],['../sqlite3_8c.html#a44d01ba0a136b8e27ad362f5a823d14e',1,'_FILE_OFFSET_BITS():&#160;sqlite3.c']]],
-  ['_5ffts5_5fh',['_FTS5_H',['../sqlite3_8c.html#aa2bad954856d186b3e84b27034429ae6',1,'_FTS5_H():&#160;sqlite3.c'],['../sqlite3_8h.html#aa2bad954856d186b3e84b27034429ae6',1,'_FTS5_H():&#160;sqlite3.h']]],
-  ['_5fftsint_5fh',['_FTSINT_H',['../sqlite3_8c.html#ad8e3f480657e0584849180c57c84a384',1,'sqlite3.c']]],
-  ['_5fht',['_ht',['../struct_hash_1_1__ht.html',1,'Hash']]],
-  ['_5flarge_5ffile',['_LARGE_FILE',['../shell_8c.html#a8776ea0e6f826f2b3a962986b3868582',1,'_LARGE_FILE():&#160;shell.c'],['../sqlite3_8c.html#a8776ea0e6f826f2b3a962986b3868582',1,'_LARGE_FILE():&#160;sqlite3.c']]],
-  ['_5flargefile_5fsource',['_LARGEFILE_SOURCE',['../shell_8c.html#a0cdbd4d0545340d33dfe595811475ccd',1,'_LARGEFILE_SOURCE():&#160;shell.c'],['../sqlite3_8c.html#a0cdbd4d0545340d33dfe595811475ccd',1,'_LARGEFILE_SOURCE():&#160;sqlite3.c']]],
-  ['_5fos_5fcommon_5fh_5f',['_OS_COMMON_H_',['../sqlite3_8c.html#a5325fba19d26f87e74361a79079f952f',1,'sqlite3.c']]],
-  ['_5fsqlite3rtree_5fh_5f',['_SQLITE3RTREE_H_',['../sqlite3_8c.html#a7ae19e0e2aee81373530a793ca663ebb',1,'_SQLITE3RTREE_H_():&#160;sqlite3.c'],['../sqlite3_8h.html#a7ae19e0e2aee81373530a793ca663ebb',1,'_SQLITE3RTREE_H_():&#160;sqlite3.h']]],
-  ['_5fsqlite_5fos_5fh_5f',['_SQLITE_OS_H_',['../sqlite3_8c.html#aa24008fa5c80d5e2fef58d6878ad69dd',1,'sqlite3.c']]],
-  ['_5fxopen_5fsource',['_XOPEN_SOURCE',['../sqlite3_8c.html#a78c99ffd76a7bb3c8c74db76207e9ab4',1,'sqlite3.c']]]
+  ['ahorizondatabase',['AHorizonDatabase',['../class_a_horizon_database.html',1,'AHorizonDatabase'],['../class_a_horizon_database.html#a6ace09b26b6e9b10342943fa2caa8cb3',1,'AHorizonDatabase::AHorizonDatabase()']]],
+  ['are_5fdoubles_5fapprox_5fequal',['are_doubles_approx_equal',['../namespacesoci_1_1tests.html#acf7ac7b0194d796737166eac3e29db09',1,'soci::tests']]],
+  ['are_5fdoubles_5fequal',['are_doubles_equal',['../namespacesoci_1_1tests.html#ad00e132ba32bd54b64537890650cf6d8',1,'soci::tests']]],
+  ['are_5fdoubles_5fexactly_5fequal',['are_doubles_exactly_equal',['../namespacesoci_1_1tests.html#afc7dc8f9d1605442b74452130818554f',1,'soci::tests']]],
+  ['assert_5fequal',['ASSERT_EQUAL',['../common-tests_8h.html#a4eb2dea94d13f305ce42ea82cec4114b',1,'common-tests.h']]],
+  ['assert_5fequal_5fapprox',['ASSERT_EQUAL_APPROX',['../common-tests_8h.html#a04a1335066f0f6f8c08084b5cfed3353',1,'common-tests.h']]],
+  ['assert_5fequal_5fexact',['ASSERT_EQUAL_EXACT',['../common-tests_8h.html#aeb02c6759dca10b2bba25a04e3a1bdcf',1,'common-tests.h']]],
+  ['auto_5ftable_5fcreator',['auto_table_creator',['../namespacesoci_1_1tests.html#ab3921bd61e64802a253367fc20647778',1,'soci::tests']]]
 ];
