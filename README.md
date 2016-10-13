@@ -34,11 +34,19 @@ PublicDependencyModuleNames.AddRange(new string[] { "HorizonDatabase"});
 Technical Details
 -----------------------  
 
-List of Modules: HorizonTween (Runtime)  
+List of Modules: HorizonDatabase (Runtime)  
 
-Intended Platform: All Platforms  
+Tested Engine veriosn: 4.13.
 
-Platforms Tested: Windows, Android, Mac  
+Windows: tested.
+
+MACOSX: Failed. need modify engine(Engine/Source/Programs/UnrealBuildTool/Mac/MacToolChain.cs) to enable rtti.
+
+Android: tested, need cherry pick this commit and rebuild engine source code.
+
+iOS: not tested, need cherry pick this commit and rebuild engine source code.
+
+Linux: not tested.
 
 Demo Project: https://github.com/dorgonman/HorizonHorizonDatabaseDemo 
 
