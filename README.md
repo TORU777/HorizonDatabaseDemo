@@ -36,17 +36,19 @@ Technical Details
 
 List of Modules: HorizonDatabaseEditor(Editor), HorizonDatabase (Runtime)  
 
-Tested Engine veriosn: 4.13.
+__Tested Engine veriosn__: 4.13.  
 
-Windows: tested.
+__Windows__: tested.  
 
-MACOSX: Failed. need modify engine(Engine/Source/Programs/UnrealBuildTool/Mac/MacToolChain.cs) to enable rtti.
+__MACOSX__: Failed. need modify engine(Engine/Source/Programs/UnrealBuildTool/Mac/MacToolChain.cs) to enable rtti. 
 
-Android: tested, need cherry pick this commit and rebuild engine source code.
+__Android__: tested, need cherry pick this [commit][AndroidAndiOSBuildFixLink] and rebuild engine source code.  
 
-iOS: not tested, need cherry pick this commit and rebuild engine source code.
+__iOS__: not tested, need cherry pick this [commit][AndroidAndiOSBuildFixLink] and rebuild engine source code.  
 
-Linux: not tested.
+__Linux__: not tested.  
+  
+[AndroidAndiOSBuildFixLink]: https://github.com/dorgonman/UnrealEngine/commit/ba8b2df57b067aa461f4d3fc4d0703d2ff1041aa  "Enable Rtti and Exception"  
 
 Demo Project: https://github.com/dorgonman/HorizonHorizonDatabaseDemo 
 
