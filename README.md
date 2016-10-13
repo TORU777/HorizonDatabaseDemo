@@ -36,6 +36,26 @@ Technical Details
 
 List of Modules: HorizonDatabaseEditor(Editor), HorizonDatabase (Runtime)  
 
+-------------------------------------------------------------------
+Current Database backend implementation status
+-------------------------------------------------------------------
+__DB2__: not implemented  
+
+__Firebird__: not implemented  
+
+__MySQL__: not implemented  
+
+__ODBC__: not implemented  
+
+__Oracle__: not implemented  
+
+__PostgreSQL__: not implemented  
+
+__Sqlite3__: implemented  
+
+-------------------------------------------------------------------
+Tested Platform
+-------------------------------------------------------------------
 __Tested Engine veriosn__: 4.13.  
 
 __Windows__: tested.  
@@ -50,7 +70,6 @@ __Linux__: not tested.
   
 [AndroidAndiOSBuildFixLink]: https://github.com/dorgonman/UnrealEngine/commit/ba8b2df57b067aa461f4d3fc4d0703d2ff1041aa  "Enable Rtti and Exception"  
 
-Demo Project: https://github.com/dorgonman/HorizonHorizonDatabaseDemo 
 
 
 -----------------------
