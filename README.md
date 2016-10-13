@@ -34,7 +34,7 @@ PublicDependencyModuleNames.AddRange(new string[] { "HorizonDatabase"});
 Technical Details
 -----------------------  
 
-List of Modules: HorizonDatabase (Runtime)  
+List of Modules: HorizonDatabaseEditor(Editor), HorizonDatabase (Runtime)  
 
 Tested Engine veriosn: 4.13.
 
