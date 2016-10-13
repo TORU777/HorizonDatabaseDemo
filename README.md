@@ -1,7 +1,7 @@
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonDatabasePlugin<br>
-					0.1.0(beta)   <br>
+					0.2.0(beta)   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -53,6 +53,10 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 -----------------------  
+
+* 0.2.0
+ - Refactor: Implement and adjust function for blueprint
+ - BugFix: Fix UTF8 type_conversion from db to FString
 
 * 0.1.0
  - NEW: First Version including core features.

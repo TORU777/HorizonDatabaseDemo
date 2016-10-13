@@ -10,5 +10,5 @@ var searchData=
   ['connectstring',['ConnectString',['../class_a_horizon_database.html#ac1620329bfe889938efb980f938950de',1,'AHorizonDatabase']]],
   ['connectstring_5f',['connectString_',['../classsoci_1_1tests_1_1common__tests.html#aa3d78f763d932a31c49a431d2d5af590',1,'soci::tests::common_tests']]],
   ['createdirectoryrecursive',['CreateDirectoryRecursive',['../class_u_horizon_database_function_library.html#a250647aea02d299dd5ee3fe00d81c076',1,'UHorizonDatabaseFunctionLibrary']]],
-  ['createtable',['CreateTable',['../class_a_horizon_database.html#a1cbf6f8a46ad4cf121e54b0043b1e13a',1,'AHorizonDatabase']]]
+  ['createtable',['CreateTable',['../class_u_horizon_test_d_b_table1_function_library.html#a39da794f7d80740e39efd58afd9f8063',1,'UHorizonTestDBTable1FunctionLibrary::CreateTable()'],['../class_a_horizon_database.html#a1cbf6f8a46ad4cf121e54b0043b1e13a',1,'AHorizonDatabase::CreateTable()']]]
 ];

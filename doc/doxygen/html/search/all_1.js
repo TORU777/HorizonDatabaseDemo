@@ -7,6 +7,5 @@ var searchData=
   ['beginplay',['BeginPlay',['../class_a_horizon_database.html#ab59637893af2d3a2eb8153068a06ee92',1,'AHorizonDatabase']]],
   ['btest1',['bTest1',['../struct_f_horizon_test_d_b_table1.html#ad7a7b812a81b0e30ee45ab7c7fbb75e4',1,'FHorizonTestDBTable1']]],
   ['btest1list',['bTest1List',['../struct_f_horizon_test_d_b_table1_bulk_data.html#ae5713fbe71f690ebac2a75ec2350561f',1,'FHorizonTestDBTable1BulkData']]],
-  ['bulkexec',['BulkExec',['../class_u_horizon_test_d_b_table1_function_library.html#aa717ee437875e00d0026ff86a309d1ee',1,'UHorizonTestDBTable1FunctionLibrary']]],
-  ['bulkinsert',['BulkInsert',['../class_u_horizon_test_d_b_table1_function_library.html#aeb439711c592e1047a463b3f1eee063a',1,'UHorizonTestDBTable1FunctionLibrary']]]
+  ['bulkexec',['BulkExec',['../class_u_horizon_test_d_b_table1_function_library.html#aa717ee437875e00d0026ff86a309d1ee',1,'UHorizonTestDBTable1FunctionLibrary']]]
 ];
