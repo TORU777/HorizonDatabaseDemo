@@ -34,7 +34,13 @@ PublicDependencyModuleNames.AddRange(new string[] { "HorizonDatabase"});
 Technical Details
 -----------------------  
 
-List of Modules: HorizonDatabaseEditor(Editor), HorizonDatabase (Runtime)  
+List of Modules:  
+
+	Editor: HorizonDatabaseEditor  
+
+	Runtime: HorizonDatabase  
+
+	ThirdParty: soci_core, soci_empty, soci_sqlite3  
 
 -------------------------------------------------------------------
 Current Database backend implementation status
