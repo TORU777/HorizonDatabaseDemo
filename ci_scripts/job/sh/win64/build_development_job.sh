@@ -1,3 +1,5 @@
+#!/bin/sh
+
 <<LICENSE
 Boost Software License - Version 1.0 - 2016/10/06 
 
@@ -28,18 +30,35 @@ DEALINGS IN THE SOFTWARE.
 LICENSE
 
 
+UE4_ENGINE_PATH=/d/UnrealEngine/UnrealEngineGit
+export ${UE4_ENGINE_PATH}
+
+GIT_BRANCH=$(git symbolic-ref --short HEAD)
+GIT_REV_COUNT=$(git rev-list HEAD --count)
+BUILD_CONFIG="Development"
+PLATFORM="Win64"
+
 echo "-----------------------------------------------------"
-echo "start win64 build - branch master, CONFIG=Development"
+echo "start win64 build - branch=${GIT_BRANCH}, revision=${GIT_REV_COUNT}, CONFIG=${BUILD_CONFIG}"
 echo "-----------------------------------------------------"
+
+
+
 BASE_PATH=$(cd "$(dirname "$0")"; pwd)
-ARCHIVE_DIR=$(cd "${BASE_PATH}/../../../../../ci_build/win64/master/development/"; pwd)
+PROJECT_ROOT=$(cd "${BASE_PATH}/../../../../"; pwd)
+PROJECT_FILE=${PROJECT_ROOT}/HorizonDatabaseDemo.uproject
+
+ARCHIVE_DIR=$(cd "${PROJECT_ROOT}/ci_build/${PLATFORM}/${GIT_BRANCH}/${BUILD_CONFIG}/"; pwd)
 mkdir -p ${ARCHIVE_DIR}
+
+
+
+
+echo {PROJECT_ROOT}: ${PROJECT_ROOT}
 echo {ARCHIVE_DIR}: ${ARCHIVE_DIR}
+echo {BUILD_CONFIG}: ${BUILD_CONFIG}
+echo {PLATFORM}: 	${PLATFORM}
+echo {PROJECT_FILE}: ${PROJECT_FILE}
 
-
-
-${UE4_ENGINE_PATH}/Engine/Build/BatchFiles/RunUAT BuildCookRun -project="HorizonDatabaseDemo.uproject" \
- -noP4 -platform=Win64 \
- -clientconfig=Development -serverconfig=Development \
- -cook -allmaps -build -stage \
- -pak -archive -archivedirectory=${ARCHIVE_DIR} \
+source ${PROJECT_ROOT}/ci_scripts/function/sh/UEBuild.sh
+UEBuildClient ${PROJECT_FILE} ${PLATFORM} ${BUILD_CONFIG} ${ARCHIVE_DIR}
