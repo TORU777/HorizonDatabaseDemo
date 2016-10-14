@@ -10,8 +10,16 @@
 # * {4}: {ARCHIVE_FULL_PATH}: full_archive_dir
 
 
+
+UERunUAT(){
+   ext=bat
+   return ${UE4_ENGINE_PATH}/Engine/Build/BatchFiles/RunUAT.${ext}
+}
+
+
 UEBuildClient () {
-   ${UE4_ENGINE_PATH}/Engine/Build/BatchFiles/RunUAT BuildCookRun \
+   ext=bat
+   ${UE4_ENGINE_PATH}/Engine/Build/BatchFiles/RunUAT.${ext} BuildCookRun \
    -project=${1} \
    -noP4 -platform=${2} \
    -clientconfig=${3} -serverconfig=${3} \
