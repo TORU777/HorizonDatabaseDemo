@@ -66,8 +66,15 @@ __Tested Engine veriosn__: 4.18
 
 __Windows__: tested.  
 
+__MACOSX__: Failed. need modify engine(Engine/Source/Programs/UnrealBuildTool/Mac/MacToolChain.cs) to enable rtti. 
 
+__Android__: tested, need cherry pick this [commit][AndroidAndiOSBuildFixLink] and rebuild engine source code.  
 
+__iOS__: not tested, need cherry pick this [commit][AndroidAndiOSBuildFixLink] and rebuild engine source code.  
+
+__Linux__: not tested.  
+  
+[AndroidAndiOSBuildFixLink]: https://github.com/dorgonman/UnrealEngine/commit/ba8b2df57b067aa461f4d3fc4d0703d2ff1041aa  "Enable Rtti and Exception"  
 
 
 -----------------------
