@@ -26,9 +26,9 @@
 * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 * DEALINGS IN THE SOFTWARE.
 **********************************************************/
-
-#include "HorizonDatabaseDemo.h"
 #include "HorizonDatabaseDemoGameMode.h"
+#include "HorizonDatabaseDemo.h"
+
 
 //#include "Horizon/Database/HorizonDatabase.h"
 

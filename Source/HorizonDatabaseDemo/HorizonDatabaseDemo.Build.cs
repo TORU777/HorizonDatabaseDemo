@@ -33,8 +33,10 @@ using System.IO;
 
 public class HorizonDatabaseDemo : ModuleRules
 {
-	public HorizonDatabaseDemo(TargetInfo Target)
-	{
+    public HorizonDatabaseDemo(ReadOnlyTargetRules Target)
+        : base(Target)
+    {
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
