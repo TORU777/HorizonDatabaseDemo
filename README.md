@@ -17,7 +17,7 @@ You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.
 System Requirements
 -----------------------  
 
-Tested UnrealEngine version: 4.18
+Tested UnrealEngine version: 4.13, 4.18
 
 -----------------------
 Installation Guide
