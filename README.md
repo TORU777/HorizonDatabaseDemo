@@ -1,7 +1,7 @@
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonDatabasePlugin<br>
-					0.2.0(beta)   <br>
+					4.18.0(beta)   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -17,7 +17,7 @@ You can find document here: [doc/doxygen/html/index.html](http://horizon-studio.
 System Requirements
 -----------------------  
 
-Tested UnrealEngine version: 4.13
+Tested UnrealEngine version: 4.18
 
 -----------------------
 Installation Guide
@@ -62,19 +62,11 @@ __Sqlite3__: implemented
 -------------------------------------------------------------------
 Tested Platform
 -------------------------------------------------------------------
-__Tested Engine veriosn__: 4.13.  
+__Tested Engine veriosn__: 4.18
 
 __Windows__: tested.  
 
-__MACOSX__: Failed. need modify engine(Engine/Source/Programs/UnrealBuildTool/Mac/MacToolChain.cs) to enable rtti. 
 
-__Android__: tested, need cherry pick this [commit][AndroidAndiOSBuildFixLink] and rebuild engine source code.  
-
-__iOS__: not tested, need cherry pick this [commit][AndroidAndiOSBuildFixLink] and rebuild engine source code.  
-
-__Linux__: not tested.  
-  
-[AndroidAndiOSBuildFixLink]: https://github.com/dorgonman/UnrealEngine/commit/ba8b2df57b067aa461f4d3fc4d0703d2ff1041aa  "Enable Rtti and Exception"  
 
 
 
@@ -88,7 +80,8 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 -----------------------  
-
+* 4.18.0
+ - Fix 4.18.0 compile and refactor submodules
 * 0.2.0
  - Refactor: Implement and adjust function for blueprint
  - BugFix: Fix UTF8 type_conversion from db to FString
