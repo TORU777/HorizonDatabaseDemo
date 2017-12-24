@@ -1,6 +1,6 @@
 [submodule "Plugins/HorizonDatabasePlugin"]
 	path = Plugins/HorizonDatabasePlugin
-	url = https://horizon-studio.visualstudio.com/DefaultCollection/UE4HorizonPlugin/_git/HorizonDatabasePlugin
+	url = https://github.com/dorgonman/HorizonDatabasePlugin.git
 [submodule "ci_scripts/function/python/HorizonBuildTool"]
 	path = ci_scripts/function/python/HorizonBuildTool
 	url = https://github.com/dorgonman/HorizonBuildTool.git
