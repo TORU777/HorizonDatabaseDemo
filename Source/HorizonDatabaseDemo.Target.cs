@@ -35,5 +35,7 @@ public class HorizonDatabaseDemoTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		ExtraModuleNames.AddRange( new string[] { "HorizonDatabaseDemo" } );
-	}
+
+        bForceEnableExceptions = true;
+    }
 }
