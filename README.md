@@ -1,4 +1,8 @@
-![VSTS Build status](https://horizon-studio.visualstudio.com/_apis/public/build/definitions/66d242ac-f17b-4303-9a70-ebb6a52e1525/3/badge)
+VSTS Build Status: ![VSTS Build Status](https://hsgame.visualstudio.com/_apis/public/build/definitions/aeaa314b-7b56-4733-89fa-67e9bccfb809/5/badge)
+
+Note: 
+
+master branch may be unstable since it is in development, please switch to tags, for example: release/4.18.0
 
 ----------------------------------------------  
 <h2 align="center">				
